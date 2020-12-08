@@ -98,15 +98,38 @@ li {
 }
 
 /*for wrapper*/
+/* CSS Reset */
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 90%; 
   margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a { 
+  font-family: 'Poppins', sans-serif;
+  color: #000;
 }
 /*=================================
   Header styling starts here
 =================================*/
+.main-heading {
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: rgba(10, 243, 243, 0.863);
+}
 
+.main-heading a { 
+  color:  inherit; 
+  text-shadow: 1px 1px 3px #000;
+}
 /*=================================
   Header styling ends here
 =================================*/  
