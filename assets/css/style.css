@@ -137,8 +137,82 @@ a {
 /*=================================
   main styling starts here
 =================================*/
+/* banner styling starts here */
+.events{
+  background-color: #081335;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
+.date-heading {
+  font-size: 20px;
+  font-weight:500;
+  color: #fff;
+  letter-spacing: 1px;
+}
 
+.event-content {
+  background-color: #fff;
+  width: 45%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.event-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.event-content-box { 
+  display: flex; 
+  margin-bottom: 80px;
+}
+
+.date-box,
+.time-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.date-box{ margin-right: 10px;}
+.time-box { align-items: flex-start; }
+
+.date {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.month {
+  font-size: 16px;
+  font-weight:400;
+  text-transform: uppercase;
+}
+
+.day-time {
+  font-size: 12px;
+  font-weight: 600;
+  color: #636466;
+}
+
+.upcoming-events {
+  font-size: 11px;
+  color: #636466;
+  letter-spacing: 1px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  color: #4bdff0;
+  font-weight: 600;
+  background-color: transparent;
+}
+/* banner styling ends here */
 /*=================================
   main styling ends here
 =================================*/
